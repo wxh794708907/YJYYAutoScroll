@@ -11,6 +11,7 @@
  [YJYYCollectionView collectionViewWithFrame:CGRectMake(0, 44, kScreenWidth, kImageHeight) imageArray:self.images timeInterval:1.5 view:self.view];
 
 //需要传入的参数如下
+
 1.frame:UICollectionView的frame
 
 2.imageArray:数据源 也就是存放图片的数组
