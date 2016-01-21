@@ -5,11 +5,15 @@
 2.导入头文件 #import "YJYYCollectionView.h"
 
 3.调用类方法实现无限轮播:
-```+(instancetype)collectionViewWithFrame:(CGRect)frame imageArray:(NSArray *)imageArray timeInterval:(CGFloat )timeInterval view:(UIView *)view;
+
+```
++(instancetype)collectionViewWithFrame:(CGRect)frame imageArray:(NSArray *)imageArray timeInterval:(CGFloat )timeInterval view:(UIView *)view;
 ```
 
 一句话实现图片无限轮播的功能 参考代码如下:
-``` [YJYYCollectionView collectionViewWithFrame:CGRectMake(0, 44, kScreenWidth, kImageHeight) imageArray:self.images timeInterval:1.5 view:self.view];
+
+``` 
+[YJYYCollectionView collectionViewWithFrame:CGRectMake(0, 44, kScreenWidth, kImageHeight) imageArray:self.images timeInterval:1.5 view:self.view];
 ```
 
 //需要传入的参数如下
