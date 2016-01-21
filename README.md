@@ -30,6 +30,7 @@
 而且这偏移与第三方的下拉刷新是有冲突的
 
 解决冲突: 
+
      1.禁止系统偏移 在你的控制器中添加 ‘vc.automaticallyadjustsScrollviewInsets ＝NO’这段代码就可以了 
      2.nav.translucent   把原点下移64 和 ios6一样  （一般不用这个） 
 
